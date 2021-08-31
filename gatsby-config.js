@@ -21,5 +21,6 @@ module.exports = {
     },
     'gatsby-plugin-pnpm',
     `gatsby-plugin-typescript`,
+    `gatsby-plugin-material-ui`,
   ],
 };
