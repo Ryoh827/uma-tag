@@ -12,18 +12,35 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^3.12.1",
-    "gatsby-plugin-google-analytics": "^3.12.0",
+    "gatsby-plugin-google-gtag": "^3.12.0",
     "gatsby-plugin-manifest": "^3.12.0",
+    "gatsby-plugin-pnpm": "^1.2.8",
     "gatsby-plugin-react-helmet": "^4.12.0",
     "gatsby-plugin-sass": "^4.12.0",
     "gatsby-plugin-sitemap": "^4.8.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "sass": "^1.38.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.8",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "gatsby-plugin-eslint": "^4.0.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.2"
   }
 }
